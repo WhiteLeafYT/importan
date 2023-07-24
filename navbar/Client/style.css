@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    background-color: #232528;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 13px;
+    gap: 280px;
+}
+#navbar-left {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+}
+#navbar-left:hover {
+    cursor: pointer;
+}
+#navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    padding-right: 89px;
+}
+#navbar-right:hover {
+    cursor: pointer;
+}
+.essentials {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+h3 {
+    margin: 0%;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+}
+.extra {
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+    font-size: 100px;
+}
+#dots {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.body-1 { 
+    display: flex;
+    justify-content: center;
+}
+.bodyImage {
+    width: 631px;
+    height: 697.38px;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 70px;
+    width: 600px;
+    padding-top: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+p {
+    color: gray;
+    font-family: 'Comfortaa', cursive;
+    width: 650px;
+}
+.button {
+    width: 147px;
+    height: 42px;
+    border-radius: 8px;
+    color: #9589ff;
+    background-color: #5547d728;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    border-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button:hover {
+    color: #fff;
+    background-color: #9589ff;
+}
+#ownModifications {
+    color: #fff;
+    margin-top: 110px;
+}
+#ourStory {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#story {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+.cards {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 320px;
+    gap: 15px;
+    width: 90%;
+}
+.travelCards {
+    width: 25%;
+    height: 137px;
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    border-radius: 12px;
+    align-items: center;
+}
+.cardImages { 
+    width: 50%;
+    border-radius: 12px;
+}
+.cardStructure {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+}
+.cardStructure a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+.cardStructure p {
+    width: fit-content;
+    font-family: 'Comfortaa', cursive;
+}
+.ImageNumber2 {
+    margin-left: 320px;
+    width: 448px;
+    height: 597px;
+    border-radius: 12px;
+}
+.Section3 {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+.Section3-RightSide {
+    padding-left: 150px;
+    padding-bottom: 15px;
+}
+.Section3-RightSide h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 55px;
+}
+#Food {
+    width: 200px;
+}
+.Food1Image {
+    width: 70px;
+}
+.Row1 {
+
+}
+.Row2 {
+
+}
+.bothRows {
+    display: flex;
+    gap: 100px;
+}
+.FeaturedImages {
+    display: flex;
+}
+.FeaturedHotels h1 {
+    padding-left: 600px;
+}
+.FeaturedHotelsImages {
+    border-radius: 12px;
+    gap: 0px;
+
+}
+.FeaturedHotels{
+    margin: 0%;
+    padding: 0%;
+}
+.Row1 {
+    font-family: 'Comfortaa', cursive;
+}
+.Row2 {
+    font-family: 'Comfortaa', cursive;
+}
+#Heading {
+    margin-left: 30px;
+}
+.FeaturedHotels {
+}
+.FeaturedImages {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+.Feat:hover {
+    border-radius: 12px;
+    width: 100%;
+    height: 482px;
+}
+.Sector {
+    width: 15%;
+}
+h2 {
+    font-family: 'Comfortaa', cursive;
+}
+#Green {
+    color: #0cbc87;
+}
+#hoverPurple:hover {
+    color: #9589ff;
+    transition: 300ms ease;
+}
